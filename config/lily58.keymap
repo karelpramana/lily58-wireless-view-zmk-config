@@ -14,14 +14,14 @@
         auto_parentheses: auto_parentheses {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(X) &kp LEFT_PARENTHESIS &kp LC(V) &kp RIGHT_PARENTHESIS>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
             label = "AUTO_PARENTHESES";
         };
 
         auto_bracket: auto_bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(X) &kp LEFT_BRACKET &kp LC(V) &kp RIGHT_BRACKET>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
             label = "AUTO_BRACKET";
         };
     };
